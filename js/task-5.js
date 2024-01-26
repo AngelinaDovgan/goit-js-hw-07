@@ -14,3 +14,15 @@ button.addEventListener('click', () => {
   colorSpan.textContent = body.style.backgroundColor;
 });
 
+
+
+
+// styles
+button.style.backgroundColor = 'rgba(78, 117, 255, 1)';
+button.style.width = '148px';
+button.style.height = '40px';
+button.style.color = 'white';
+button.style.borderRadius = '8px';
+document.body.style.marginLeft = '650px';
+document.body.style.marginRight = '650px';
+// styles

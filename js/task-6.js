@@ -30,7 +30,6 @@ function destroyBoxes() {
 
 createButton.addEventListener("click", function () {
   const amount = Number(input.value);
-
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
     input.value = "";
@@ -40,3 +39,31 @@ createButton.addEventListener("click", function () {
 destroyButton.addEventListener("click", function () {
   destroyBoxes();
 });
+
+
+// styles
+createButton.style.backgroundColor = 'rgba(78, 117, 255, 1)';
+createButton.style.width = '120px';
+createButton.style.height = '40px';
+createButton.style.borderRadius = '8px';
+createButton.style.color = 'white';
+destroyButton.style.width = '120px';
+destroyButton.style.height = '40px';
+destroyButton.style.backgroundColor = 'rgba(255, 78, 78, 1)';
+destroyButton.style.borderRadius = '8px';
+input.style.width = '150px';
+input.style.height = '40px';
+input.style.borderRadius = '8px';
+mainDiv.style.backgroundColor = 'rgba(246, 246, 254, 1)';
+mainDiv.style.width = '486px';
+mainDiv.style.height = '104px';
+mainDiv.style.display = 'flex';
+mainDiv.style.alignItems = 'center';
+mainDiv.style.gap = '10px';
+mainDiv.style.padding = '32px 40px';
+divBox.style.display = 'flex';
+divBox.style.gap = '10px';
+divBox.style.backgroundColor = 'rgba(246, 246, 254, 1)';
+divBox.style.height = '104px';
+divBox.style.marginTop = '16px';
+// styles

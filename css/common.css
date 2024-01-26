@@ -13,4 +13,16 @@ body {
   line-height: 1.5;
 }
 
+.box-animal {
+  background-color: rgba(246, 246, 254, 1);
+  display: block;
+  list-style: none;
+  border-radius: 8px;
+};
+h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+};
 

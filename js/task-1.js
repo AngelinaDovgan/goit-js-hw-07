@@ -14,3 +14,4 @@ const mainTitle = el.querySelectorAll('ul li');
     console.log('Category: ' + title);
     console.log('Elements: ' + mainTitle.length);
 });
+

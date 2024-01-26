@@ -36,6 +36,9 @@ images.forEach(image => {
   const addImg = document.createElement("img");
   addImg.src = image.url;
   addImg.alt = image.alt;
+  addImg.style.width = '360px';
+  addImg.style.height = '300px';
+  addLi.style.listStyle = 'none';
 
   addLi.append(addImg);
   galleryList.append(addLi);
