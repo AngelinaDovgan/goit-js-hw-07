@@ -32,15 +32,12 @@ const images = [
 const galleryList = document.querySelector('.gallery');
 
 images.forEach(image => {
-  const addLi = document.createElement("li");
-  const addImg = document.createElement("img");
-  addImg.src = image.url;
-  addImg.alt = image.alt;
-  addImg.style.width = '360px';
-  addImg.style.height = '300px';
-  addLi.style.listStyle = 'none';
+   const addingList = `
+    <li style="list-style: none;">
+      <img src="${image.url}" alt="${image.alt}" style="width: 360px; height: 300px;">
+    </li>
+  `;
 
-  addLi.append(addImg);
-  galleryList.append(addLi);
-
+  galleryList.insertAdjacentHTML('beforeend', addingList);
 });
+
